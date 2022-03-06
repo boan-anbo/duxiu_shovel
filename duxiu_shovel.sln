@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "duxiu_shovel", "duxiu_shovel\duxiu_shovel.csproj", "{F0F68D40-285C-4DD1-A2FA-2EFFEEA91EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnZipperTest", "UnZipperTest\UnZipperTest.csproj", "{C2CD1C44-C2EA-4647-9381-E99A435D5959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gui", "Gui\Gui.csproj", "{13ADF827-D709-4B2C-AE22-804EB622C852}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0F68D40-285C-4DD1-A2FA-2EFFEEA91EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F68D40-285C-4DD1-A2FA-2EFFEEA91EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0F68D40-285C-4DD1-A2FA-2EFFEEA91EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0F68D40-285C-4DD1-A2FA-2EFFEEA91EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CD1C44-C2EA-4647-9381-E99A435D5959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CD1C44-C2EA-4647-9381-E99A435D5959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CD1C44-C2EA-4647-9381-E99A435D5959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CD1C44-C2EA-4647-9381-E99A435D5959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13ADF827-D709-4B2C-AE22-804EB622C852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13ADF827-D709-4B2C-AE22-804EB622C852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13ADF827-D709-4B2C-AE22-804EB622C852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13ADF827-D709-4B2C-AE22-804EB622C852}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

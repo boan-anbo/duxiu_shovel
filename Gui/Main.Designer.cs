@@ -33,7 +33,6 @@ namespace Gui
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
-            this.saveJsonList = new System.Windows.Forms.Button();
             this.processButton = new System.Windows.Forms.Button();
             this.Order = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FileName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -71,16 +70,6 @@ namespace Gui
             this.button1.Text = "Select Files";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // saveJsonList
-            // 
-            this.saveJsonList.Location = new System.Drawing.Point(824, 31);
-            this.saveJsonList.Name = "saveJsonList";
-            this.saveJsonList.Size = new System.Drawing.Size(75, 23);
-            this.saveJsonList.TabIndex = 2;
-            this.saveJsonList.Text = "Save Json List";
-            this.saveJsonList.UseVisualStyleBackColor = true;
-            this.saveJsonList.Click += new System.EventHandler(this.button2_Click);
             // 
             // processButton
             // 
@@ -126,7 +115,6 @@ namespace Gui
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 729);
             this.Controls.Add(this.processButton);
-            this.Controls.Add(this.saveJsonList);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Main";
@@ -143,7 +131,6 @@ namespace Gui
         private OpenFileDialog openFileDialog1;
         private DataGridView dataGridView1;
         private Button button1;
-        private Button saveJsonList;
         private Button processButton;
         private DataGridViewTextBoxColumn Order;
         private DataGridViewTextBoxColumn FileName;

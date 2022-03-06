@@ -107,29 +107,6 @@ namespace Gui
                 datagrid.Refresh();
             }); 
         }
-        public void SaveJson()
-        {
-            Debug.WriteLine("test");
 
-            var openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "Pdf (*.PDF)|*.PDF";            //  Allow the user to select multiple images.
-            openFileDialog.Multiselect = true;
-            openFileDialog.Title = "Choose Zip Files or Directory";
-            DialogResult dr = openFileDialog.ShowDialog();
-            if (dr == DialogResult.OK)
-            {
-                var files = openFileDialog.FileNames;
-                if (files.Length > 0)
-                {
-                    Debug.WriteLine(files);
-                    var newRequest = new DuxiuShovel.Models.CabinetExtractRequest();
-                    newRequest.filePaths = files.ToList();
-                    string jsonString = JsonConvert.SerializeObject(newRequest);
-                    Debug.WriteLine(jsonString);
-                    File.WriteAllText("cabinet_request_file_paths.json", jsonString, Encoding.UTF8);
-                }
-
-            }
-        }
     }   
 }
